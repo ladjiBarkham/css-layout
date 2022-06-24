@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+:root {
+    --color1:#5BC9B2;
+    --hover-1:#66eace;
+    --color2: #ABABAB;
+    --color3: #4D83D8;
+    --hover-2: #6a9dee;
+    --color4: #1D2733;
+    --hover-4: #303e4f;
+    --color-paragraphe: #747474;
+    --color-section3:#DEF4F5 ;
+}
+html {
+    font-family: 'Roboto';
+}
+body{
+    align-content: center;
+    font-family: 'Roboto';
+
+}
+.nav-bar {
+    margin: 0 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+
+}
+.left-nav-bar{
+    font-size: 25px;
+    font-weight: 700;
+}
+.left-nav-bar p{
+    color: var(--color1);
+}
+.left-nav-bar p span{
+    color: var(--color2);
+}
+
+.right-nav-bar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.right-nav-bar ul li {
+    padding: 15px;
+    
+}
+.right-nav-bar ul li a {
+    text-decoration: none;
+    color: var(--color2);
+}
+.right-nav-bar ul li a:hover {
+    text-decoration: none;
+    color: var(--color1);
+    
+}
+.lead-section {
+    align-content: center;
+    padding: 0;
+    margin: 0 400px;
+    display: grid;
+    justify-items: center;
+}
+.lead-section img{
+    
+    width: 40px;
+    
+}
+.lead-section h1 {
+    color: var(--color1);
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    }
+.grid-lead-section {
+    color: var(--color2);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+}
+.icon1 {
+    
+    justify-items: center;
+}
+.col1 {
+    font-size: 16px;
+    }
+.col1 p {
+        line-height: 25px;
+        }
+.second-lead {
+    display: flex;
+    margin: 50px 400px;
+}
+.second-lead:hover {
+    color: white;
+    margin: 50px 400px;
+    opacity: 70;
+}
+.card-1 {
+    display: flex;
+    flex-direction: column;
+   background-color: var(--color1);
+   height: 320px;
+   width: 375px;
+   padding: 20px;
+   color: white;
+   border-radius: 15px;
+}
+.card-1:hover {
+   background-color: var(--hover-1);
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color3);
+    height: 320px;
+    width: 375px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin: 0 15px;
+}
+.card-2:hover {
+    background-color: var(--hover-2);
+}
+ .card-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color4);
+    height: 320px;
+    width: 375px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    }
+    .card-3:hover {
+        background-color: var(--hover-4);
+        }
+.card-1 p {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+.card-2 p {
+    font-weight: 300;
+    font-size: 26px; 
+    line-height: 36px;
+}
+.card-3 p {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+img.icon {
+    width: 30px;
+    margin: 0 00 0;
+}
+.second-lead a {
+    color: white;
+    margin: 15px 0;
+}
+.second-lead a.a2 {
+    color: white;
+    margin:0;
+}
+section.logo-section {
+    display: flex;
+    align-items: center;
+    margin: 40px 400px;
+}
+.logo-section-description {
+    width: 40%;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 35px;
+    color: var(--color1);
+    display: block;
+}
+.logo-company {
+    margin-left: 55px;
+    
+}
+.logo-company ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.logo-company ul li {
+    
+    margin: 20px 0;
+    
+    }
+.logo-company ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color2);
+    margin: 15px 0;
+    
+    }
+    .logo-company ul li a:hover{
+        color: var(--color1);
+        
+        }
+.section3 {
+    width: 100%;
+    margin: 0;
+    height: 600px;
+    background-color: var(--color-section3);
+    display: flex;
+}
+.col1-section3 {
+    margin: 70px 0 0 400px;
+    width: 1700px;
+    font-weight: 200;
+    line-height: 35px;
+}
+.col1-section3 h1 {
+    font-weight: 200;
+    font-size: 35px;
+    color: var(--color1);
+    line-height: 45px;
+}
+.col2-section3 {
+    display: grid;
+    margin: 0 400px 0 2px;
+    grid-template-columns: repeat(2,250px); /*-------Pour mettre un template de grid------*/
+    flex-wrap: wrap;
+    
+    /*margin-top: 30px;*/
+}
+.col2-element-1 {
+    width: 220px;
+    height: 240px;
+    display: grid; /*---pour aligner les contents il faut mettre un display et justify items---*/
+    justify-items: center;
+    float: left;/*cours à voire */
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px 0 0 15px;
+    padding: 15px 0 0 0;
+    /*margin: 12px;*/
+}
+.col2-element-1 h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color1);
+}
+.col2-element-1 p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color-paragraphe);
+    padding: 15px;
+}
+.col2-element-2 {
+    display: grid; /*---pour aligner les contents il faut mettre un display et justify items---*/
+    justify-items: center;
+    width: 220px;
+    height: 240px;
+    float: left;/*cours à voire */
+    background-color: white;
+    border-radius: 5px;
+    margin: 25px 0 0 15px;
+    padding: 15px 0 0 0;
+    /*margin: 12px;*/
+}
+.col2-element-2 h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color1);
+}
+.col2-element-2 p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color-paragraphe);
+    padding: 15px;
+}
+.col2-element-3 {
+    display: grid; /*---pour aligner les contents il faut mettre un display et justify items---*/
+    justify-items: center;
+    width: 220px;
+    height: 240px;
+    float: left;/*cours à voire */
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 0 0 15px;
+    padding: 15px 0 0 0;
+    /*margin: 12px;*/
+}
+.col2-element-3 h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color1);
+}
+.col2-element-3 p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color-paragraphe);
+    padding: 15px;
+}
+.col2-element-4 {
+    display: grid; /*---pour aligner les contents il faut mettre un display et justify items---*/
+    justify-items: center;
+    padding: 15px 0 0 0;
+    width: 220px;
+    height: 240px;
+    float: left;/*cours à voire */
+    background-color: white;
+    border-radius: 5px;
+    margin: -15px 0 0 15px;
+    /*margin: 12px;*/
+}
+.col2-element-4 h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color1);
+}
+.col2-element-4 p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    color: var(--color-paragraphe);
+    padding: 15px;
+}
+.section4 {
+    display: grid;
+    justify-items: center;
+    padding: 0 400px;
+}
+.header-section4 {
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 30px;
+}
+.header-section4 h1 {
+    color: var(--color1);
+    font-weight: 200;
+    font-size: 40px;
+}
+.header-section4 p {
+    color: var(--color-paragraphe);
+    font-weight: 700;
+    margin-bottom: 75px;
+    font-size: 12px;
+}
+.image-desc {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    }
+    figure {
+        margin: 0%;
+        
+    }
+    figure img{
+        border-radius: 5px;
+        
+    }
+.desc-button {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    background-color: white;
+    width: 100%;
+    
+}
+.desc-button span {
+    margin: 0 0 0 100px;
+    align-items: flex-end;
+    background-color: #4D83D8;
+    font-family: 'roboto';
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px;
+}
+.desc-button h1 {
+    color: var(--color2);
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 300;
+}
+.image-desc a {
+    text-decoration: none;
+    margin-top: 0;
+}
+.desc1 {
+    
+    border-radius: 5px;
+    width: 270px;
+    height: 280px;
+    margin: 30px 0;
+}
+.desc1 img{
+    width: 100%;
+    height: 100%;
+}
+.section5 {
+    display:grid;justify-content: center;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 200;
+    margin-top: 30px;
+    padding: 0 400px;
+}
+.section5 h1 {
+    font-family: 'roboto';
+    font-weight: 200;
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+}
+.section5 a {
+    font-family: 'roboto';
+    font-weight: 200;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(0, 110, 255);
+    padding:   15px 25px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    margin-left: 150px;
+   
+}
+footer {
+    border: #1D2733;
+    border-width: 2px;
+    margin-top: 50px ;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+
+
